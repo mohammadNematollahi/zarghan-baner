@@ -1,0 +1,15 @@
+#container-images{
+    height: 100px!important;
+}
+#container-images > div{
+    border: 2px dotted #ff6900;
+}
+@media screen and (max-width: 992px) {
+    #container{
+        padding: 0px!important;
+    }
+}
+.attribute-user{
+    transition: all .5s;
+    border-right: 3px green solid;
+}

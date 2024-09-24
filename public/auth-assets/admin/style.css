@@ -1,0 +1,6 @@
+body{
+    direction: rtl;
+}
+#container{
+    background: url("login.jpg") top center;
+}

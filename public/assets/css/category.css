@@ -1,0 +1,64 @@
+body {
+  direction: rtl;
+  color: #20133a;
+  background-color: #ffffffff!important;
+}  
+.container-click-show *{
+  color: #ff4f4c!important;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  position: absolute;
+}
+
+#app{
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+main::-webkit-scrollbar{
+ display: none!important; 
+}
+
+aside{
+  overflow: auto;
+}
+main{
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+#title{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 15rem;
+}
+#description{
+  overflow: auto;
+}
+#description::-webkit-scrollbar{
+  display: none;
+}
+aside::-webkit-scrollbar{
+  display: none;
+}
+
+.font-middle-size{
+  font-size: .96rem;
+}
+
+.line-height{
+  line-height: 1;
+}
+#share i{
+  font-size: 1.7rem;
+}
+.h-15-rem{
+  height: 15rem;
+}
+#title{
+  background: #ffffffff;
+  z-index: 1;
+}
